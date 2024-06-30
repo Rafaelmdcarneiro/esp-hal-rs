@@ -1,0 +1,24 @@
+[workspace]
+resolver = "2"
+members  = ["xtask"]
+exclude  = [
+    "esp-alloc",
+    "esp-backtrace",
+    "esp-build",
+    "esp-hal",
+    "esp-hal-embassy",
+    "esp-hal-procmacros",
+    "esp-hal-smartled",
+    "esp-ieee802154",
+    "esp-lp-hal",
+    "esp-metadata",
+    "esp-println",
+    "esp-riscv-rt",
+    "esp-wifi",
+    "esp-storage",
+    "examples",
+    "extras/bench-server",
+    "extras/esp-wifishark",
+    "extras/ieee802154-sniffer",
+    "hil-test",
+]
